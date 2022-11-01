@@ -32,7 +32,6 @@ end
 
 def reverse_string(str)
   # your code here
-  # str_length = str.length
   new_string = ""
   str.length.times do |i|
     new_string << str[-i-1]
